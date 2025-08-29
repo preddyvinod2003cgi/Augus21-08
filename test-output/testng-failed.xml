@@ -3,19 +3,19 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="pack1.Lab9_TestNG">
+      <class name="AutomationExcercise.TC_regr_core_003">
         <methods>
-          <include name="beforeClass"/>
-          <include name="beforeMethod"/>
-          <include name="beforeSuite"/>
           <include name="afterTest"/>
-          <include name="afterSuite"/>
-          <include name="ecommerceTest"/>
-          <include name="afterClass"/>
+          <include name="beforeSuite"/>
+          <include name="verifyLogoutFunctionality"/>
           <include name="afterMethod"/>
           <include name="beforeTest"/>
+          <include name="beforeClass"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+          <include name="afterClass"/>
         </methods>
-      </class> <!-- pack1.Lab9_TestNG -->
+      </class> <!-- AutomationExcercise.TC_regr_core_003 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

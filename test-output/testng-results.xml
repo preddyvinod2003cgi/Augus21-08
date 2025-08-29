@@ -1,211 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="0" failed="0" skipped="2">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-08-26T16:39:05 IST" name="Default suite" finished-at="2025-08-26T16:39:05 IST" duration-ms="93">
+  <suite started-at="2025-08-29T09:42:03 IST" name="Default suite" finished-at="2025-08-29T09:42:15 IST" duration-ms="12908">
     <groups>
     </groups>
-    <test started-at="2025-08-26T16:39:05 IST" name="Default test" finished-at="2025-08-26T16:39:05 IST" duration-ms="93">
-      <class name="pack1.Lab9_TestNG">
-        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:pack1.Lab9_TestNG@15888343]" started-at="2025-08-26T16:39:04 IST" name="beforeSuite" finished-at="2025-08-26T16:39:05 IST" duration-ms="18" status="PASS">
+    <test started-at="2025-08-29T09:42:03 IST" name="Default test" finished-at="2025-08-29T09:42:15 IST" duration-ms="12908">
+      <class name="AutomationExcercise.TC_regr_core_003">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:AutomationExcercise.TC_regr_core_003@2dfaea86]" started-at="2025-08-29T09:42:02 IST" name="beforeSuite" finished-at="2025-08-29T09:42:02 IST" duration-ms="281" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:pack1.Lab9_TestNG@15888343]" started-at="2025-08-26T16:39:05 IST" name="beforeTest" finished-at="2025-08-26T16:39:05 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:AutomationExcercise.TC_regr_core_003@2dfaea86]" started-at="2025-08-29T09:42:03 IST" name="beforeTest" finished-at="2025-08-29T09:42:03 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:pack1.Lab9_TestNG@15888343]" started-at="2025-08-26T16:39:05 IST" name="beforeClass" finished-at="2025-08-26T16:39:05 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:AutomationExcercise.TC_regr_core_003@2dfaea86]" started-at="2025-08-29T09:42:03 IST" name="beforeClass" finished-at="2025-08-29T09:42:03 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:pack1.Lab9_TestNG@15888343]" started-at="2025-08-26T16:39:05 IST" name="beforeMethod" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1756206545063" status="FAIL">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Parameter 'browser' is required by BeforeMethod on method beforeMethod but has not been marked @Optional or defined
-in C:\Users\vinod kumar\AppData\Local\Temp\testng-eclipse--1080424951\testng-customsuite.xml]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'browser' is required by BeforeMethod on method beforeMethod but has not been marked @Optional or defined
-in C:\Users\vinod kumar\AppData\Local\Temp\testng-eclipse--1080424951\testng-customsuite.xml
-at org.testng.internal.Parameters.createParams(Parameters.java:264)
-at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:352)
-at org.testng.internal.Parameters.createParameters(Parameters.java:690)
-at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:163)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:313)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="ecommerceTest(java.lang.Integer,java.lang.String)[pri:0, instance:pack1.Lab9_TestNG@15888343]" started-at="2025-08-26T16:39:05 IST" name="ecommerceTest" data-provider="dp" finished-at="2025-08-26T16:39:05 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:AutomationExcercise.TC_regr_core_003@2dfaea86]" started-at="2025-08-29T09:42:03 IST" name="beforeMethod" finished-at="2025-08-29T09:42:04 IST" duration-ms="1699" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[1]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Mobile]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Parameter 'browser' is required by BeforeMethod on method beforeMethod but has not been marked @Optional or defined
-in C:\Users\vinod kumar\AppData\Local\Temp\testng-eclipse--1080424951\testng-customsuite.xml]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'browser' is required by BeforeMethod on method beforeMethod but has not been marked @Optional or defined
-in C:\Users\vinod kumar\AppData\Local\Temp\testng-eclipse--1080424951\testng-customsuite.xml
-at org.testng.internal.Parameters.createParams(Parameters.java:264)
-at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:352)
-at org.testng.internal.Parameters.createParameters(Parameters.java:690)
-at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:163)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:313)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ecommerceTest -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:pack1.Lab9_TestNG@15888343]" started-at="2025-08-26T16:39:05 IST" name="afterMethod" finished-at="2025-08-26T16:39:05 IST" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:pack1.Lab9_TestNG@15888343]" started-at="2025-08-26T16:39:05 IST" name="beforeMethod" finished-at="2025-08-26T16:39:05 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="ecommerceTest(java.lang.Integer,java.lang.String)[pri:0, instance:pack1.Lab9_TestNG@15888343]" started-at="2025-08-26T16:39:05 IST" name="ecommerceTest" data-provider="dp" finished-at="2025-08-26T16:39:05 IST" duration-ms="0" status="SKIP">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[2]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Monitors]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Parameter 'browser' is required by BeforeMethod on method beforeMethod but has not been marked @Optional or defined
-in C:\Users\vinod kumar\AppData\Local\Temp\testng-eclipse--1080424951\testng-customsuite.xml]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'browser' is required by BeforeMethod on method beforeMethod but has not been marked @Optional or defined
-in C:\Users\vinod kumar\AppData\Local\Temp\testng-eclipse--1080424951\testng-customsuite.xml
-at org.testng.internal.Parameters.createParams(Parameters.java:264)
-at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:352)
-at org.testng.internal.Parameters.createParameters(Parameters.java:690)
-at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:163)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:313)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
+        <test-method signature="verifyLogoutFunctionality()[pri:0, instance:AutomationExcercise.TC_regr_core_003@2dfaea86]" started-at="2025-08-29T09:42:04 IST" name="verifyLogoutFunctionality" finished-at="2025-08-29T09:42:15 IST" duration-ms="10919" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ecommerceTest -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:pack1.Lab9_TestNG@15888343]" started-at="2025-08-26T16:39:05 IST" name="afterMethod" finished-at="2025-08-26T16:39:05 IST" duration-ms="0" status="SKIP">
+        </test-method> <!-- verifyLogoutFunctionality -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:AutomationExcercise.TC_regr_core_003@2dfaea86]" started-at="2025-08-29T09:42:15 IST" name="afterMethod" finished-at="2025-08-29T09:42:15 IST" duration-ms="255" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:pack1.Lab9_TestNG@15888343]" started-at="2025-08-26T16:39:05 IST" name="afterClass" finished-at="2025-08-26T16:39:05 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:AutomationExcercise.TC_regr_core_003@2dfaea86]" started-at="2025-08-29T09:42:15 IST" name="afterClass" finished-at="2025-08-29T09:42:15 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:pack1.Lab9_TestNG@15888343]" started-at="2025-08-26T16:39:05 IST" name="afterTest" finished-at="2025-08-26T16:39:05 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:AutomationExcercise.TC_regr_core_003@2dfaea86]" started-at="2025-08-29T09:42:15 IST" name="afterTest" finished-at="2025-08-29T09:42:15 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="afterSuite()[pri:0, instance:pack1.Lab9_TestNG@15888343]" started-at="2025-08-26T16:39:05 IST" name="afterSuite" finished-at="2025-08-26T16:39:05 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:AutomationExcercise.TC_regr_core_003@2dfaea86]" started-at="2025-08-29T09:42:15 IST" name="afterSuite" finished-at="2025-08-29T09:42:16 IST" duration-ms="326" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
-      </class> <!-- pack1.Lab9_TestNG -->
+      </class> <!-- AutomationExcercise.TC_regr_core_003 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
